@@ -10,16 +10,16 @@ body {
 h1 {
 	color: white;
 	background-color: DarkCyan;
-	background-color: hsla(187, 43%, 39%, 0.5);
+	background-color: hsl(187, 43%, 39%);
 	font-size: 50px }
 
 h2 {
 	color:white;
 	background-color: #ee3e80;
-	background-color: hsla(334, 68%, 48%, 0.5);
+	background-color: hsl(334, 68%, 48%);
 	font-size:30px}
 
 p {
 	font-size:20px;
 	background-color: white;
-	background-color: hsla(0, 0%, 90%, 0.5);}
+	background-color: hsl(0, 0%, 90%);}
