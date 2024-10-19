@@ -5,22 +5,26 @@
 	<title>Min Width Max Width</title>
 	<style rel="stylesheet" type="text/css">
 		body {
+			font-family: sans-serif;
 			width: 70%;
 			}
 		th {
+			color: #0088dd;
+			border-bottom: 1px solid #0088dd;
 			text-align: left;
-			font-family: sans-serif;
-			font-weight: lighter;
+			font-weight: normal;
 			}
-		.table-heading {
-			text-decoration: underline;
-			}
-		td.image {
-			min-width: 100px;
-			max-width: 200px;
+		td {
+			min-width: 150px;
+			min-height: 200px;
+			vertical-align: top;
+			line-height: 1.2em;
+			text-align: left;
 			}
 		td.description {
-			min-width: 250px;
+			margin: 10px;
+			padding: 5px;
+			min-width: 450px;
 			max-width: 650px;
 			}
 	</style>
@@ -34,19 +38,19 @@
 			<th>Price</th>
 		<tr>
 		<tr>
-			<td class="image"><img src="images/rhodes.jpg"/></td>	
-			<td class="description"><p>The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.</p></td>
-			<td class="price"><p>$1400</p></td>	
+			<td><img src="images/rhodes.jpg" width="200" height="150"/></td>	
+			<td class="description">The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.</td>
+			<td class="price">$1400</td>	
 		</tr>
 		<tr>
-			<td class="image"><img src="images/wurlitzer.jpg"/></td>
-			<td class="description"><p>The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.</p></td>
-			<td class="price"><p>$1600</p></td>
+			<td><img src="images/wurlitzer.jpg" width="200" height="150" /></td>
+			<td class="description">The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the fifties and later manufactured in a number of models, first in collaboration with Fender and after 1965 by CBS. It employs a piano-like keyboard with hammers that hit small metal tines, amplified by electromagnetic pickups.</td>
+			<td class="price">$1600</td>
 		</tr>
 		<tr>
-			<td class="image"><img src="images/clavinet.jpg"/></td>
-			<td class="description"><p>A Clavinet is an electronically amplified clavichord manufactured by the Hohner company. Each key uses a rubber tip to perform a hammer on a string. Its distinctive bright staccato sound is often compared to that of an electric guitar. Various models were produced over the years, including the models I, II, L, C, D6, and E7.</p></td>
-			<td class="price"><p>$1200</p></td>
+			<td><img src="images/clavinet.jpg" width="200" height="150"/></td>
+			<td class="description">A Clavinet is an electronically amplified clavichord manufactured by the Hohner company. Each key uses a rubber tip to perform a hammer on a string. Its distinctive bright staccato sound is often compared to that of an electric guitar. Various models were produced over the years, including the models I, II, L, C, D6, and E7.</td>
+			<td class="price">$1200</td>
 		</tr>
 	</table>
 </body>
