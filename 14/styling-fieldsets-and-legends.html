@@ -17,28 +17,38 @@
 			border-bottom: 1px solid gray;
 				}
 		input#submit {
+			font-size: 12px;
 			border: 1px solid gray;
 			border-radius: 5px;
-			text-transform: capitalize;
+			background-color: #665544;
+			color: #ffffff;
+			border: none;
+			padding: 5px;
+			width: 80px;
 			}
 		input#submit:hover {
 			cursor: pointer;
+			background-color: #ffffff;
+			color: #665544;
 			}
 		input:focus {
 			border: 1px solid gray;
 			outline: none;
 			}
 		fieldset {
-			width: 350px;
+			width: 325px;
 			}
 		legend {
-			font-size: 20px;
-			text-transform: uppercase;
+			font-size: 18px;
 			color: gray;
 			padding: 7px 10px 7px 10px;
 			border: 1px solid lightgray;
 			background: lightgray;
-			border-radius: 5px;
+			border-radius: 10px;
+			text-align: left;
+			}
+		.submit {
+			text-align: right;
 			}
 	</style>
 </head>
@@ -46,10 +56,12 @@
 <body>
 	<form>
 		<fieldset>
-			<legend>Newsletter</legend>
+			<legend>NEWSLETTER</legend>
 			<label for="name">Name: </label><input type="text" id="name" />
 			<label for="email">Email: </label><input type="text" id="email" />
-			<input type="submit" value="subscribe" id="submit" />
+			<div class="submit">
+				<input type="submit" value="Subscribe" id="submit" />
+			</div>
 		</fieldset>
 	</form>
 </body>
