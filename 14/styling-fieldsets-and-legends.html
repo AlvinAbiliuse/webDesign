@@ -9,12 +9,19 @@
 			font-size: 16px;
 			}
 		label {
+			width: 100px;
+			color: gray;
+			font-weight: 100;
 			padding: 20px;
 			}
+		.input {	
+			padding: 5px 0px;
+			}
 		input {
+			width: 250px;
 			margin: 10px;
 			border: none;
-			border-bottom: 1px solid gray;
+			border-bottom: 1px dotted gray;
 				}
 		input#submit {
 			font-size: 12px;
@@ -23,7 +30,7 @@
 			background-color: #665544;
 			color: #ffffff;
 			border: none;
-			padding: 5px;
+			padding: 5px 3px;
 			width: 80px;
 			}
 		input#submit:hover {
@@ -32,16 +39,19 @@
 			color: #665544;
 			}
 		input:focus {
-			border: 1px solid gray;
+			border: 1px dotted lightgray;
 			outline: none;
 			}
 		fieldset {
-			width: 325px;
+			padding: 10px 5px 10px 5px;
+			width: 370px;
+			border: 1px solid lightgray;
+			border-radius: 10px;
 			}
 		legend {
-			font-size: 18px;
+			font-size: 16px;
 			color: gray;
-			padding: 7px 10px 7px 10px;
+			padding: 10px 20px;
 			border: 1px solid lightgray;
 			background: lightgray;
 			border-radius: 10px;
@@ -57,8 +67,12 @@
 	<form>
 		<fieldset>
 			<legend>NEWSLETTER</legend>
-			<label for="name">Name: </label><input type="text" id="name" />
-			<label for="email">Email: </label><input type="text" id="email" />
+			<div class="input">
+				<label for="name">Name: </label><input type="text" id="name" />
+			</div>
+			<div class="input">
+				<label for="email">Email: </label><input type="text" id="email" />
+			</div>
 			<div class="submit">
 				<input type="submit" value="Subscribe" id="submit" />
 			</div>
