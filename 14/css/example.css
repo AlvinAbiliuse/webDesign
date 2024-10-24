@@ -1,0 +1,39 @@
+
+body {
+	font-family: sans-serif;
+	margin: 10px;
+	}
+
+ul {
+	list-style-image: url("../images/icon-plus.png")
+}
+
+table {
+	width: 600px;
+	border-collapse: collapse;
+	}
+
+th {
+	color: #FFFFF0;
+	background-color: #1E90FF;
+	border-bottom: 2px solid gray;
+	}
+td {
+	padding: 10px;
+	background-color: #B0E0E6;
+	}
+td.table-even {
+	background-color: #87CEEB;
+	}
+
+form {
+	width: 400px;
+	}
+
+.label {
+	float: left;
+	width: 150px;
+	text-align: left;
+	margin-right: 25px;
+	}
+
