@@ -1,0 +1,54 @@
+body {
+	width: 1290px;
+	font-size: 20px;
+	text-align: center;
+	font-family: sans-serif;
+	color: #665544;
+}
+
+h1,
+ul,
+p {
+	padding: 20px;
+	margin: 10px;
+}
+
+h1 {
+	margin: 20px;
+}
+
+li {
+	display: inline;
+	padding-right: 15px;
+	letter-spacing: 0.05em;
+}
+
+a {
+	color: inherit;
+}
+
+ul, p {
+	background-color: #f5f5f5;
+}
+
+.content {
+	margin: 10px;
+}
+
+.column1of3,
+.column2of3,
+.column3of3 {
+	width: 420px;
+	float: left;
+	overflow: auto;
+	height: 100%;
+}
+
+.column3of3 {
+	margin: 5px
+}
+
+/*
+.copy {
+	clear: left;
+} */
