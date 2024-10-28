@@ -31,7 +31,9 @@ ul, p {
 	background-color: #f5f5f5;
 }
 
-.content {
+#content {
+	overflow: auto;
+	height: 100%;
 	margin: 10px;
 }
 
