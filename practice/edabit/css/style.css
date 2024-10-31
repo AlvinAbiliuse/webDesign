@@ -1,0 +1,13 @@
+body {
+	width: 960px;
+	font-family: sans-serif;
+}
+
+#header,
+#footer {
+	display: inline;
+	float: left;
+}
+.nav {
+	display: inline;
+}
