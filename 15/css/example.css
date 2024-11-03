@@ -1,0 +1,20 @@
+* {
+	font-family: sans-serif;
+}
+
+
+li {
+	display: inline;
+}
+
+.intro {
+	clear: left;
+}
+
+.more-articles {
+	margin-top: 20px;
+}
+
+.wrapper {
+	background-color: #efefef;
+}
